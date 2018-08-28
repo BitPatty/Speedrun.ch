@@ -1,0 +1,18 @@
+{
+  "editor.autoIndent": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "easysass.compileAfterSave": true,
+  "easysass.targetDir": "public/css",
+  "easysass.formats": [
+    {
+      "format": "compact",
+      "extension": ".css"
+    },
+    {
+      "format": "compressed",
+      "extension": ".min.css"
+    }
+  ],
+  "easysass.excludeRegex": "^(?!main.scss).*$"
+}

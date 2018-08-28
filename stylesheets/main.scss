@@ -1,0 +1,11 @@
+@import '_import';
+@import './env/_colors';
+
+a {
+  color: $hs-dark-red;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

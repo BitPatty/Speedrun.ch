@@ -1,0 +1,99 @@
+@import './env/_header_vars';
+@import './env/_colors';
+
+header {
+  background-image: url(../img/hsm_1_gp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  width: 100vw;
+
+  position: relative;
+  z-index: 0;
+
+  &:after {
+    @include bg-gradient();
+
+    content: '';
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    h1 {
+      max-width: 800px;
+    }
+
+    h2 {
+      color: white;
+      font-weight: 500;
+      margin: 20px 0 40px 0;
+    }
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 80px;
+    font-weight: 700;
+  }
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  max-width: 500px;
+
+  span {
+    position: relative;
+    white-space: pre;
+
+    &:after {
+      animation: highlight 1.5s ease-out forwards;
+      background-color: $hs-dark-red-highlight;
+      bottom: 5px;
+
+      content: '';
+      position: absolute;
+      height: 15px;
+      left: 0;
+      width: 0px;
+      z-index: -1;
+    }
+  }
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

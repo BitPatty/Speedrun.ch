@@ -1,0 +1,8 @@
+@mixin bg-gradient() {
+  background-image: linear-gradient(
+    90deg,
+    #a10000 0%,
+    #860000 44%,
+    #720000 100%
+  );
+}

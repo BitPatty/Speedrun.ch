@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+// Icon reference:
+// https://material.io/tools/icons/?style=baseline
+
+.icon {
+  display: inline-block;
+  text-transform: none;
+  text-decoration: none;
+  text-rendering: auto;
+
+  line-height: 1;
+
+  font-family: 'Material Icons';
+  font-size: inherit;
+  font-weight: normal;
+  font-style: normal;
+
+  font-variant: normal;
+  -webkit-font-variant-ligatures: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-stretch: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--s1 {
+  font-size: 16px;
+}
+
+.icon--s2 {
+  font-size: 24px;
+}
+
+.icon--s3 {
+  font-size: 32px;
+}
+
+.icon--s4 {
+  font-size: 40px;
+}
+
+.icon--s5 {
+  font-size: 48px;
+}
+
+.icon--s6 {
+  font-size: 56px;
+}
+
+.icon--flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.icon--flip-vertical {
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.icon--flip-horizontal-vertical {
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+.icon-account::before {
+  content: 'account';
+}
+
+.icon-arrow-down::before {
+  content: 'arrow_downward';
+}
+
+.icon-arrow-left::before {
+  content: 'arrow_back';
+}
+
+.icon-arrow-right::before {
+  content: 'arrow_forward';
+}
+
+.icon-arrow-up::before {
+  content: 'arrow_upward';
+}
+
+.icon-attachment::before {
+  content: 'attach_file';
+}
+
+.icon-backup::before {
+  content: 'backup';
+}
+
+.icon-bin::before {
+  content: 'delete';
+}
+
+.icon-calendar::before {
+  content: 'calendar_today';
+}
+
+.icon-cancel::before {
+  content: 'cancel';
+}
+
+.icon-check-mark::before {
+  content: 'check';
+}
+
+.icon-check-mark-circle::before {
+  content: 'check_circle';
+}
+
+.icon-chevron-down::before {
+  content: 'chevron_down';
+}
+
+.icon-chevron-left::before {
+  content: 'chevron_left';
+}
+
+.icon-chevron-right::before {
+  content: 'chevron_right';
+}
+
+.icon-chevron-up::before {
+  content: 'chevron_up';
+}
+
+.icon-menu::before {
+  content: 'menu';
+}
