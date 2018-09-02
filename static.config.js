@@ -30,11 +30,11 @@ export default {
 
       {
         path: '/gallery',
-        component: 'src/containers/Home'
+        component: 'src/containers/404'
       },
       {
         is404: true,
-        component: 'src/containers/Home'
+        component: 'src/containers/404'
       }
     ];
   },
@@ -46,5 +46,7 @@ export default {
       config.entry = ['babel-polyfill', ...config.entry];
     }
     return config;
-  }
+  },
+
+  siteRoot: 'http://speedrun.ch/'
 };

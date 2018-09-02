@@ -14,10 +14,10 @@ export default class extends React.Component {
           <Link exact to="/">
             <img src="/img/logo_home.png" />
           </Link>
-          <Link to="/about">About Us</Link>
-          <Link to="/events">Events</Link>
+          <Link to="/#about">About Us</Link>
+          <Link to="/#events">Events</Link>
           <Link to="/gallery">Gallery</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="mailto:contact@speedrun.ch">Contact</Link>
         </div>
       </nav>
     );

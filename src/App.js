@@ -12,7 +12,6 @@ class App extends React.Component {
       <Router>
         <div>
           <NavBar />
-          <Header />
           <main>
             <Routes />
           </main>
