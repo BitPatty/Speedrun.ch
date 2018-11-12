@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-static';
+import { Link } from 'react-router-dom';
 
 export default class extends React.Component {
   render() {
     return (
       <nav id="nav-desktop" className="navTransparent">
         <Link exact to="/">
-          <img src="/img/logo_home.png" />
+          <img src="/img/logo_home.png" alt="Helvetic Speedrunners Logo" />
         </Link>
         <Link to="/#about">About Us</Link>
         <Link to="/#events">Events</Link>

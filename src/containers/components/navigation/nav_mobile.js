@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-static';
+import { Link } from 'react-router-dom';
 
 export default class extends React.Component {
   render() {
@@ -10,9 +10,13 @@ export default class extends React.Component {
             <i className="icon icon-menu icon--s5" aria-hidden="true" />
           </div>
         </div>
-        <div className="nav-content" id="mobile-content">
+        <div
+          className="nav-content"
+          id="mobile-content"
+          onClick={this.toggleActiveClass}
+        >
           <Link exact to="/">
-            <img src="/img/logo_home.png" />
+            <img src="/img/logo_home.png" alt="Helvetic Speedrunners Logo" />
           </Link>
           <Link to="/#about">About Us</Link>
           <Link to="/#events">Events</Link>

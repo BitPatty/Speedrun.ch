@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class About extends React.Component {
+export default class extends React.Component {
   render() {
     return (
       <section id="about">
@@ -23,6 +23,7 @@ export default class About extends React.Component {
                 driven events join our public{' '}
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="http://discord.me/helveticspeedrunners"
                 >
                   Discord Server
@@ -43,23 +44,33 @@ export default class About extends React.Component {
           <div className="full-width">
             <h3>Where you can find us</h3>
             <div className="center">
-              <a target="_blank" href="https://twitch.tv/helveticspeedrunners">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitch.tv/helveticspeedrunners"
+              >
                 Twitch
               </a>{' '}
               |{' '}
-              <a target="_blank" href="https://twitter.com/swissspeedruns">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/swissspeedruns"
+              >
                 Twitter
               </a>{' '}
               |{' '}
               <a
                 target="_blank"
-                href="https://www.youtube.com/channel/UCQYgMHDeiRptzNNTQVfB_EQ"
+                rel="noopener noreferrer"
+                href="https://discord.me/helveticspeedrunners"
               >
-                Youtube
+                Discord
               </a>{' '}
               |{' '}
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.speedrun.com/Helvetic_Speedrunners_Marathon/forum"
               >
                 SRC Forums

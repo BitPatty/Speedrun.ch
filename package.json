@@ -1,28 +1,28 @@
 {
   "name": "speedrun.ch",
-  "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000"
-  },
+  "version": "0.1.0",
+  "homepage": "http://speedrun.ch/",
+  "private": true,
   "dependencies": {
-    "axios": "^0.16.2",
-    "babel-eslint": "^8.0.1",
-    "babel-polyfill": "^6.26.0",
-    "eslint": "^4.10.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-hot-loader": "^4.0.0-beta.21",
-    "react-router": "^4.2.0",
-    "react-slick": "^0.23.1",
-    "react-static": "^5.9.7"
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-photo-gallery": "^6.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
   },
-  "devDependencies": {
-    "eslint-config-react-tools": "1.x.x",
-    "serve": "^7.0.0"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

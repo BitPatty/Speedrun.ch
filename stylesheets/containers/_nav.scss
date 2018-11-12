@@ -1,5 +1,12 @@
 @import './env/_colors';
 
+#nav-desktop.navWhite,
+#nav-mobile.navWhite .nav-header {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
 #nav-desktop {
   display: none;
 
@@ -12,12 +19,14 @@
   padding: 10px 0 10px 0;
   justify-content: flex-end;
   align-items: center;
-
-  transition: 0.5s;
   border-bottom: 1px solid transparent;
+  transition: all 0.5s;
 
   &.navWhite {
     background-color: rgba(white, 0.7);
+    //transition: right 0.5s;
+    transition: all 0.5s;
+
     a {
       color: #333 !important;
       &:last-child button {
@@ -78,6 +87,7 @@
     z-index: 99;
 
     background-color: transparent;
+    transition: all 0.5s;
 
     .burger {
       position: absolute;
@@ -154,7 +164,7 @@
     height: 50px;
     z-index: 99;
     background-color: #fff;
-    border-bottom: 2px solid $hs-light-grey;
+    transition: all 0.5s;
 
     .burger {
       color: #000;
