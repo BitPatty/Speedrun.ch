@@ -216,3 +216,5 @@ footer div div { display: inline-block; margin: 0px 5px; }
 footer div div a { color: #d60000; }
 
 .center { width: 100%; text-align: center; }
+
+img { image-orientation: from-image; }
