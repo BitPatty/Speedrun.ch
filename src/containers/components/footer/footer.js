@@ -11,7 +11,7 @@ export default class extends React.Component {
             <a target="_blank" href="/files/statutes.pdf">
               Statutes
             </a>{' '}
-            | <Link to="/contact">Contact</Link>
+            | <a href="mailto:contact@speedrun.ch">Contact</a>
           </div>
         </div>
       </footer>
