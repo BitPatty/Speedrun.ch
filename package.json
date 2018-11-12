@@ -1,6 +1,7 @@
 {
   "name": "speedrun.ch",
   "version": "0.1.0",
+  "homepage": "http://speedrun.ch/",
   "private": true,
   "dependencies": {
     "react": "^16.6.1",
