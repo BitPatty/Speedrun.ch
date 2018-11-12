@@ -16,7 +16,7 @@ export default class extends React.Component {
           Events
         </HashLink>
         <Link to="/gallery">Gallery</Link>
-        <Link to="mailto:contact@speedrun.ch">Contact</Link>
+        <a href="mailto:contact@speedrun.ch">Contact</a>
       </nav>
     );
   }

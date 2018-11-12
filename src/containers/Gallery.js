@@ -14,7 +14,11 @@ export default class extends React.Component {
             </h2>
             <div class="full-width">
               Photos taken by{' '}
-              <a target="_blank" href="https://twitter.com/restful_64">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/restful_64"
+              >
                 Restful64
               </a>
               !
