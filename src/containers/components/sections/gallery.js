@@ -36,5 +36,35 @@ const PHOTO_SET = [
     src: '/img/hsm1_4.jpg',
     width: 1920,
     height: 1280
+  },
+  {
+    src: '/img/hsm1_5.jpg',
+    width: 1423,
+    height: 949
+  },
+  {
+    src: '/img/hsm1_6.jpg',
+    width: 1423,
+    height: 949
+  },
+  {
+    src: '/img/hsm1_7.jpg',
+    width: 600,
+    height: 899
+  },
+  {
+    src: '/img/hsm1_8.jpg',
+    width: 1349,
+    height: 900
+  },
+  {
+    src: '/img/hsm1_9.jpg',
+    width: 1349,
+    height: 900
+  },
+  {
+    src: '/img/hsm1_10.jpg',
+    width: 1349,
+    height: 900
   }
 ];

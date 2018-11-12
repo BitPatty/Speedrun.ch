@@ -12,6 +12,13 @@ export default class extends React.Component {
             <h2>
               Helvetic Speedrunners <span>Marathon #1</span>
             </h2>
+            <div class="full-width">
+              Photos taken by{' '}
+              <a target="_blank" href="https://twitter.com/restful_64">
+                Restful64
+              </a>
+              !
+            </div>
             <Gallery />
           </div>
         </section>
