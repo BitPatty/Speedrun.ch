@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default class extends React.Component {
   render() {
@@ -8,9 +8,9 @@ export default class extends React.Component {
         <div className="content-container">
           <h1>Helvetic Speedrunners</h1>
           <h2>The Swiss Speedrunning Community</h2>
-          <Link to="/#events">
+          <HashLink smooth to="/#events">
             <button className="button-ghost">View our events</button>
-          </Link>
+          </HashLink>
         </div>
       </header>
     );
