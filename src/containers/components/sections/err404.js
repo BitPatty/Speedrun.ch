@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Err404 extends React.Component {
+export default class extends React.Component {
   render() {
     return (
       <section id="err404">

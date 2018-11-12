@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Events extends React.Component {
+export default class extends React.Component {
   render() {
     return (
       <section id="events">

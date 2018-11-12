@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-static';
 
 export default class extends React.Component {
   render() {
