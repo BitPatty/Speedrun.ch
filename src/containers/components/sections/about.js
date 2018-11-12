@@ -51,11 +51,8 @@ export default class About extends React.Component {
                 Twitter
               </a>{' '}
               |{' '}
-              <a
-                target="_blank"
-                href="https://www.youtube.com/channel/UCQYgMHDeiRptzNNTQVfB_EQ"
-              >
-                Youtube
+              <a target="_blank" href="https://discord.me/helveticspeedrunners">
+                Discord
               </a>{' '}
               |{' '}
               <a

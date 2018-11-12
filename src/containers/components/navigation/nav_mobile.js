@@ -10,7 +10,11 @@ export default class extends React.Component {
             <i className="icon icon-menu icon--s5" aria-hidden="true" />
           </div>
         </div>
-        <div className="nav-content" id="mobile-content">
+        <div
+          className="nav-content"
+          id="mobile-content"
+          onClick={this.toggleActiveClass}
+        >
           <Link exact to="/">
             <img src="/img/logo_home.png" />
           </Link>

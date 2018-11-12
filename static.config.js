@@ -27,10 +27,9 @@ export default {
         path: '/',
         component: 'src/containers/Home'
       },
-
       {
         path: '/gallery',
-        component: 'src/containers/404'
+        component: 'src/containers/Gallery'
       },
       {
         is404: true,
