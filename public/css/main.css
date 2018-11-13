@@ -203,17 +203,19 @@ button { display: flex; justify-content: center; align-items: center; height: 40
 
 body { color: #333; font-family: 'Poppins', 'HelveticaNeue', 'Helvetica Neue', sans-serif; line-height: 1.2; overflow-x: hidden; }
 
-footer { position: static; bottom: 0; height: 40px; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: #333; color: white; font-size: 14px; text-align: center; }
+footer { position: static; bottom: 0; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: #333; color: white; font-size: 14px; text-align: center; }
+
+footer div { padding: 5px; display: block; }
+
+footer div div { margin: 0px 5px; }
+
+footer div div a { color: #d60000; }
 
 /* Base Colors */
 /* Highlights */
 a { color: #9b0000; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
-
-footer div div { display: inline-block; margin: 0px 5px; }
-
-footer div div a { color: #d60000; }
 
 .center { width: 100%; text-align: center; }
 

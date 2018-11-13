@@ -1,7 +1,6 @@
 footer {
   position: static;
   bottom: 0;
-  height: 40px;
   width: 100%;
 
   display: -webkit-box;
@@ -21,4 +20,16 @@ footer {
 
   font-size: 14px;
   text-align: center;
+
+  div {
+    padding: 5px;
+    display: block;
+
+    div {
+      margin: 0px 5px;
+      a {
+        color: $hs-mid-red;
+      }
+    }
+  }
 }
