@@ -18,4 +18,4 @@ deploy:
   local_dir: build
   target-branch: gh-pages
   on:
-    branch: travic-gh-pages-integration
+    branch: master
