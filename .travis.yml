@@ -1,5 +1,7 @@
 branches:
-  except: gh-pages
+  only:
+      - gh-pages
+      - /.*/
 language: node_js
 node_js:
   - "stable"
