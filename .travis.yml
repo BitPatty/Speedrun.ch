@@ -1,3 +1,5 @@
+branches:
+  except: gh-pages
 language: node_js
 node_js:
   - "stable"
