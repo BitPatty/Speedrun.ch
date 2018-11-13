@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <HashRouter>
+        <HashRouter onUpdate={() => window.scrollTo(0, 0)}>
           <div>
             <NavBar />
             <Switch>
