@@ -1,16 +1,16 @@
 branches:
   only:
-      - gh-pages
-      - /.*/
+    - gh-pages
+    - /.*/
 language: node_js
 node_js:
-  - "stable"
+  - 'stable'
 cache:
   directories:
-  - node_modules
+    - node_modules
 script:
-  - npm install
-  - npm run build
+  - yarn install
+  - yarn build
 deploy:
   provider: pages
   skip_cleanup: true
