@@ -12,8 +12,26 @@ export default class extends React.Component {
             <div className="left">
               <h3>Upcoming Events</h3>
               <p>
-                The decision on the next event data has not been made yet. Join
-                our Discord to get regular status updates!
+                The next event is gonna be from Jan 4th to 6t at{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.eevent.ch"
+                >
+                  E-Event
+                </a>{' '}
+                in St. Gallen.
+              </p>
+              <p>
+                You can submit your runs over{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://goo.gl/forms/oibrZUj2e5cxqyRC2"
+                >
+                  this form!
+                </a>{' '}
+                Submissions are open until Nov 26th.
               </p>
             </div>
             <div className="right">
