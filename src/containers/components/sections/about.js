@@ -24,7 +24,7 @@ export default class extends React.Component {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="http://discord.me/helveticspeedrunners"
+                  href="https://discord.me/helveticspeedrunners"
                 >
                   Discord Server
                 </a>
