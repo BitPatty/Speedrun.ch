@@ -12,7 +12,7 @@ export default class extends React.Component {
             <div className="left">
               <h3>Upcoming Events</h3>
               <p>
-                The next event is gonna be from Jan 4th to 6t at{' '}
+                The next event is gonna be from Jan 4th to 6th at{' '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
