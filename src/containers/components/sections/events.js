@@ -12,33 +12,21 @@ export default class extends React.Component {
             <div className="left">
               <h3>Upcoming Events</h3>
               <p>
-                The next event is gonna be from Jan 4th to 6th at{' '}
+                The next event is gonna be from Nov 23th to 4th at{' '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.eevent.ch"
+                  href="https://herofest.ch/herofest.aspx"
                 >
-                  E-Event
+                  Herofest
                 </a>{' '}
-                in St. Gallen.
-              </p>
-              <p>
-                You can submit your runs over{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://goo.gl/forms/oibrZUj2e5cxqyRC2"
-                >
-                  this form!
-                </a>{' '}
-                Submissions are open until Nov 26th.
+                in Bern.
               </p>
             </div>
             <div className="right">
-              <h3>Last Event</h3>
+              <h3>Past Events</h3>
               <p>
-                The VODs of the Helvetic Speedrunners Marathon (Aug 04 - Aug 06
-                2018) can be found on{' '}
+                The VODs of the past Helvetic Speedrunners Marathons can be found on{' '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
