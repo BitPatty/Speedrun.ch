@@ -63,7 +63,7 @@ export default class extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://discord.me/helveticspeedrunners"
+                href="https://discord.gg/JUG97CX"
               >
                 Discord
               </a>{' '}
