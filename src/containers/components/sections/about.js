@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default class extends React.Component {
   render() {
@@ -20,7 +20,7 @@ export default class extends React.Component {
               <p>
                 We are a non profit organization and everyone is welcome to join
                 our community. If you're interested in taking part in community
-                driven events join our public{' '}
+                driven events join our public{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -50,24 +50,24 @@ export default class extends React.Component {
                 href="https://twitch.tv/helveticspeedrunners"
               >
                 Twitch
-              </a>{' '}
-              |{' '}
+              </a>{" "}
+              |{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitter.com/swissspeedruns"
               >
                 Twitter
-              </a>{' '}
-              |{' '}
+              </a>{" "}
+              |{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://discord.gg/JUG97CX"
               >
                 Discord
-              </a>{' '}
-              |{' '}
+              </a>{" "}
+              |{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"

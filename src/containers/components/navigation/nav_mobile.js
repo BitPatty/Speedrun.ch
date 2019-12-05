@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import React from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default class extends React.Component {
   render() {
@@ -33,11 +33,11 @@ export default class extends React.Component {
   }
 
   toggleActiveClass() {
-    if (typeof document !== 'undefined') {
-      var element = document.getElementById('mobile-content');
-      element.classList.toggle('active');
-      var burger = document.getElementById('burger');
-      burger.classList.toggle('active');
+    if (typeof document !== "undefined") {
+      var element = document.getElementById("mobile-content");
+      element.classList.toggle("active");
+      var burger = document.getElementById("burger");
+      burger.classList.toggle("active");
     }
   }
 }

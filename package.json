@@ -4,6 +4,7 @@
   "homepage": "https://speedrun.ch/",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.13.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-photo-gallery": "^7.0.2",
