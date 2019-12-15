@@ -6,7 +6,7 @@ export default class extends React.Component {
       <section id="about">
         <div className="content-container">
           <h2>
-            About the <span>Helvetic Speerunners</span>
+            About the <span>Helvetic Speedrunners</span>
           </h2>
           <div className="full-width">
             <div className="left">
