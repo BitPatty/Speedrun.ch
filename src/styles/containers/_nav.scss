@@ -84,7 +84,7 @@
     top: 0;
     right: 0;
     left: 0;
-    z-index: 99;
+    z-index: 7;
 
     background-color: transparent;
     transition: all 0.5s;
@@ -113,7 +113,7 @@
     bottom: 0;
     background-color: #fff;
     transition: right 0.5s;
-    z-index: 98;
+    z-index: 7;
     width: 80%;
     flex-direction: column;
     align-items: center;
@@ -162,12 +162,13 @@
     right: 0;
     left: 0;
     height: 50px;
-    z-index: 99;
+    z-index: 8;
     background-color: #fff;
     transition: all 0.5s;
 
     .burger {
       color: #000;
+      z-index: 7;
     }
   }
 }

@@ -15,14 +15,14 @@ function NavMobile() {
   return (
     <nav id="nav-mobile" className="navTransparent">
       <div className="nav-header" id="nav-mobile-header">
-        <div className="burger" onClick={() => toggleActiveClass} id="burger">
+        <div className="burger" onClick={() => toggleActiveClass()} id="burger">
           <i className="icon icon-menu icon--s5" aria-hidden="true" />
         </div>
       </div>
       <div
         className="nav-content"
         id="mobile-content"
-        onClick={() => toggleActiveClass}
+        onClick={() => toggleActiveClass()}
       >
         <Link to="/">
           <img src="/img/logo_home.png" alt="Helvetic Speedrunners Logo" />
