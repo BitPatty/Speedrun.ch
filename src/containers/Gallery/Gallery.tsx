@@ -33,10 +33,7 @@ function Gallery() {
                 galleryClasses="gallery-wrapper"
                 files={g.pictures.map(c => "https://api.speedrun.ch/" + c.path)}
                 thumbnails={g.pictures.map(
-                  c =>
-                    "https://api.speedrun.ch/cockpit/utils/thumb_url?src=" +
-                    c.path +
-                    "&w=undefined&h=120&m=bestFit&o=1"
+                  c => "https://api.speedrun.ch/" + c.path
                 )}
               />
             </div>
