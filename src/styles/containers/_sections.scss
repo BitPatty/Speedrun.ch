@@ -1,0 +1,49 @@
+@import "./env/_colors";
+
+.ib {
+  display: inline-block;
+}
+
+section {
+  padding: 60px 0 50px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.row {
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+  padding-top: 40px;
+
+  h2 {
+    margin: 0 0 20px 0;
+  }
+
+  &:nth-child(even) {
+    background-color: $hs-light-gred;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .row {
+    .left,
+    .right {
+      width: calc(50% - 10px);
+    }
+
+    .right {
+      padding-left: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .row {
+    padding: 50px 20px 0 20px;
+    .left ~ .right,
+    .right ~ .left {
+      margin-top: 30px;
+    }
+  }
+}
