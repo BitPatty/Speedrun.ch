@@ -1,7 +1,5 @@
-// @flow
-
-import { useState, useEffect } from "react";
-import { getGalleries, Gallery } from "../services/galleryService";
+import { useState, useEffect } from 'react';
+import { getGalleries, Gallery } from '../services/galleryService';
 
 function useGalleries() {
   const [isLoading, setIsLoading] = useState<boolean>(false);

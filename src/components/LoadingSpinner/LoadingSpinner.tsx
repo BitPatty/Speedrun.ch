@@ -1,8 +1,6 @@
-// @flow
-
-import React from "react";
-import DotLoader from "react-spinners/DotLoader";
-import { css } from "@emotion/core";
+import React from 'react';
+import DotLoader from 'react-spinners/DotLoader';
+import { css } from '@emotion/core';
 
 const override = css`
   display: inline-block;
@@ -17,7 +15,7 @@ function LoadingSpinner() {
         <DotLoader
           css={override}
           size={100} // or 150px
-          color={"#a10000"}
+          color={'#a10000'}
           loading={true}
         />
       </div>

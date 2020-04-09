@@ -1,0 +1,26 @@
+[
+  {
+    "hashLink": true,
+    "external": false,
+    "uri": "/#about",
+    "label": "About Us"
+  },
+  {
+    "hashLink": true,
+    "external": false,
+    "uri": "/#events",
+    "label": "Events"
+  },
+  {
+    "hashLink": false,
+    "external": false,
+    "uri": "/gallery",
+    "label": "Gallery"
+  },
+  {
+    "hashLink": false,
+    "external": true,
+    "uri": "https://discord.gg/JUG97CX",
+    "label": "Discord"
+  }
+]

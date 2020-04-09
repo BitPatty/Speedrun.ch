@@ -1,7 +1,5 @@
-// @flow
-
-import { useState, useEffect } from "react";
-import { getSingleton, Singleton } from "../services/singletonService";
+import { useState, useEffect } from 'react';
+import { getSingleton, Singleton } from '../services/singletonService';
 
 function useSingletons(identifiers: Array<string>) {
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -17,9 +15,9 @@ function useSingletons(identifiers: Array<string>) {
 
         const data = (
           await Promise.all(
-            identifiers.map(async id => ({
+            identifiers.map(async (id) => ({
               id: id,
-              data: (await getSingleton(id)).data
+              data: (await getSingleton(id)).data,
             }))
           )
         ).reduce(

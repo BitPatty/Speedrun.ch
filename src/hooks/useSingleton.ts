@@ -1,7 +1,5 @@
-// @flow
-
-import { useState, useEffect } from "react";
-import { getSingleton, Singleton } from "../services/singletonService";
+import { useState, useEffect } from 'react';
+import { getSingleton, Singleton } from '../services/singletonService';
 
 function useSingleton(identifier: string) {
   const [isLoading, setIsLoading] = useState<boolean>(false);

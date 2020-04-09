@@ -1,8 +1,8 @@
 //@flow
 
-import React from "react";
-import cx from "classnames";
-import { HashLink } from "react-router-hash-link";
+import React from 'react';
+import cx from 'classnames';
+import { HashLink } from 'react-router-hash-link';
 
 type Props = {
   title: string;
@@ -14,7 +14,7 @@ type Props = {
 
 function Header({ title, subTitle, link, linkText, compact }: Props) {
   return (
-    <header className={cx(compact ? "header--content" : "header--home")}>
+    <header className={cx(compact ? 'header--content' : 'header--home')}>
       <div className="row">
         {title && <h1>{title}</h1>}
         {subTitle && <h2>{subTitle}</h2>}

@@ -1,17 +1,16 @@
-// @flow
-
-import axios, { AxiosResponse, AxiosInstance } from "axios";
+import axios, { AxiosResponse, AxiosInstance } from 'axios';
+import config from '../config/config.json';
 
 type Headers = {
   [headerName: string]: string | void;
 };
 
 const getDefaultHeaders = (): Headers => ({
-  Accept: "application/json"
+  Accept: 'application/json',
 });
 
 const instance: AxiosInstance = axios.create({
-  baseURL: "https://api.speedrun.ch/api/singletons/get/"
+  baseURL: `${config.backendurl}/singletons/get/`,
 });
 
 export type SingletonComponentSettings = {
@@ -38,7 +37,7 @@ export function getSingleton(
 ): Promise<AxiosResponse<Singleton>> {
   return instance.request<Singleton>({
     url: identifier,
-    method: "GET",
-    headers: getDefaultHeaders()
+    method: 'GET',
+    headers: getDefaultHeaders(),
   });
 }
