@@ -27,25 +27,8 @@
     <meta property="og:image" content="/logo.png" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <title>Helvetic Speedrunners</title>
-    <script>
-      if (window) {
-        window.addEventListener("scroll", function() {
-          const navDesktop = this.document.querySelector("#nav-desktop");
-          const navMobile = this.document.querySelector("#nav-mobile");
-
-          if (document && navDesktop && navMobile) {
-            if (window.pageYOffset > 150) {
-              navDesktop.className = "navWhite";
-              navMobile.className = "navWhite";
-            } else {
-              navDesktop.className = "navTransparent";
-              navMobile.className = "navTransparent";
-            }
-          }
-        });
-      }
-    </script>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

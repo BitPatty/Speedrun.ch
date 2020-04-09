@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import * as serviceWorker from "./serviceWorker";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import * as serviceWorker from './serviceWorker';
 
-import NavBar from "./components/NavBar";
+import NavBar from './components/NavBar';
 
-import Home from "./containers/Home";
-import Gallery from "./containers/Gallery";
+import Home from './containers/Home';
+import Gallery from './containers/Gallery';
 
-import "./styles/main.scss";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import './styles/main.scss';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
@@ -21,14 +21,14 @@ const App: React.FC = () => {
               exact
               path="/gallery"
               render={() => {
-                document.title = "Helvetic Speedrunners - Gallery";
+                document.title = 'Helvetic Speedrunners - Gallery';
                 return <Gallery />;
               }}
             />
             <Route
               path="/"
               render={() => {
-                document.title = "Helvetic Speedrunners - Home";
+                document.title = 'Helvetic Speedrunners - Home';
                 return <Home />;
               }}
             />
@@ -40,7 +40,7 @@ const App: React.FC = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

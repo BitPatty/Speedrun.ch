@@ -1,17 +1,16 @@
-// @flow
-
-import axios, { AxiosResponse, AxiosInstance } from "axios";
+import axios, { AxiosResponse, AxiosInstance } from 'axios';
+import config from '../config/config.json';
 
 type Headers = {
   [headerName: string]: string | void;
 };
 
 const getDefaultHeaders = (): Headers => ({
-  Accept: "application/json"
+  Accept: 'application/json',
 });
 
 const instance: AxiosInstance = axios.create({
-  baseURL: "https://api.speedrun.ch/api/collections/get/galleries"
+  baseURL: `${config.backendurl}/collections/get/galleries`,
 });
 
 export type GalleryResponse = {
@@ -26,8 +25,8 @@ export type Gallery = {
 
 export function getGalleries(): Promise<AxiosResponse<GalleryResponse>> {
   return instance.request<GalleryResponse>({
-    url: "/",
-    method: "GET",
-    headers: getDefaultHeaders()
+    url: '/',
+    method: 'GET',
+    headers: getDefaultHeaders(),
   });
 }

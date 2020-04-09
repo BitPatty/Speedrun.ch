@@ -1,15 +1,15 @@
 //@flow
 
-import React from "react";
-import Header from "../../components/Header";
-import { Markup } from "interweave";
-import LoadingSpinner from "../../components/LoadingSpinner";
-import Error from "../../components/Error";
-import useGalleries from "../../hooks/useGalleries";
+import React from 'react';
+import Header from '../../components/Header';
+import { Markup } from 'interweave';
+import LoadingSpinner from '../../components/LoadingSpinner';
+import Error from '../../components/Error';
+import useGalleries from '../../hooks/useGalleries';
 
 //@ts-ignore
 //tslint:disable-next-line
-import Lightbox from "lightbox-alex-react";
+import Lightbox from 'lightbox-alex-react';
 
 function Gallery() {
   const { isLoading, galleries, hasError } = useGalleries();
@@ -21,7 +21,7 @@ function Gallery() {
         <div className="row">{isLoading && <LoadingSpinner />}</div>
         {!isLoading &&
           galleries &&
-          galleries.map(g => (
+          galleries.map((g) => (
             <div className="row">
               <h2>
                 <Markup content={g.title} />
@@ -31,9 +31,11 @@ function Gallery() {
               </div>
               <Lightbox
                 galleryClasses="gallery-wrapper"
-                files={g.pictures.map(c => "https://api.speedrun.ch/" + c.path)}
+                files={g.pictures.map(
+                  (c) => 'https://api.speedrun.ch/' + c.path
+                )}
                 thumbnails={g.pictures.map(
-                  c => "https://api.speedrun.ch/" + c.path
+                  (c) => 'https://api.speedrun.ch/' + c.path
                 )}
               />
             </div>
