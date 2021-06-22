@@ -5796,10 +5796,10 @@ internal-slot@^1.0.2:
     has "^1.0.3"
     side-channel "^1.0.2"
 
-interweave@^12.7.0:
-  version "12.7.0"
-  resolved "https://registry.yarnpkg.com/interweave/-/interweave-12.7.0.tgz#a4b7d7c116bdd54fc882eb2271844a1180b506cb"
-  integrity sha512-B26CWAIFST2ld+f0w1nhjsnEHXQWGRsiJdh8on34RYn5SPAjYnCi2rl2Rzxuz5Mqm2FWWxzIeQK6Fb1MPYzKqg==
+interweave@^12.7.2:
+  version "12.7.2"
+  resolved "https://registry.yarnpkg.com/interweave/-/interweave-12.7.2.tgz#c42c74a512202e2cd05165d94e6590c095a7132b"
+  integrity sha512-F91iYBH6qcE8QnjZAvWJNm/FeMlbYSsTJvwqYWNyBd/c/Wsb7MnQ4ZCTAOfn5DzoKK2U/vdm9os4d9Qu8GZvHw==
   dependencies:
     escape-html "^1.0.3"
 
